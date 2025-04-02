@@ -1,0 +1,33 @@
+{
+    "name": "slack-github-issue-creator",
+    "version": "1.0.0",
+    "description": "A Node.js application that converts Slack threads into GitHub issues",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "slack",
+        "github",
+        "issues",
+        "automation",
+        "bot"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@octokit/rest": "^21.1.1",
+        "@slack/bolt": "^3.12.2",
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
